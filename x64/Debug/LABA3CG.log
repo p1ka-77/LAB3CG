@@ -1,0 +1,150 @@
+﻿  geometry.cpp
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244: инициализация: преобразование "const T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,69): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244: инициализация: преобразование "const T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,76): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244: инициализация: преобразование "const T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(4,83): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244: инициализация: преобразование "const T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,69): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244: инициализация: преобразование "const T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\geometry.cpp(6,76): warning C4244:         ]
+  main.cpp
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\tgaimage.h(58,54): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(40,22): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,63): warning C4244: аргумент: преобразование "double" в "const _Ty", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,63): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,63): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,63): warning C4244:             _Ty=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,63): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,59): warning C4244: =: преобразование "const _Ty" в "unsigned char", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,59): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,59): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,59): warning C4244:             _Ty=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\main.cpp(48,59): warning C4244:         ]
+  model.cpp
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\tgaimage.h(58,54): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+  (компиляция исходного файла "model.cpp")
+  
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,52): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(82,20): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,51): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(87,20): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,53): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\model.cpp(100,20): warning C4244:         ]
+  our_gl.cpp
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\tgaimage.h(58,54): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+  (компиляция исходного файла "our_gl.cpp")
+  
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244: =: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(64,21): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244: =: преобразование "T" в "T", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:         with
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:             T=float
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:         and
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:         [
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:             T=int
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(65,25): warning C4244:         ]
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(69,28): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\our_gl.cpp(73,54): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  tgaimage.cpp
+C:\Users\p1ka\source\repos\LABA3CG\LABA3CG\tgaimage.h(58,54): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+  (компиляция исходного файла "tgaimage.cpp")
+  
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\p1ka\source\repos\LABA3CG\x64\Debug\LABA3CG.exe при последней инкрементной компоновке; выполняется полная компоновка
+  LABA3CG.vcxproj -> C:\Users\p1ka\source\repos\LABA3CG\x64\Debug\LABA3CG.exe
