@@ -25,10 +25,10 @@ struct TGAColor {
     unsigned char bytespp;
 
     TGAColor() : bgra(), bytespp(1) {
-        for (int i=0; i<4; i++) bgra[i] = 0;
+        for (int i = 0; i < 4; i++) bgra[i] = 0;
     }
 
-    TGAColor(unsigned char R, unsigned char G, unsigned char B, unsigned char A=255) : bgra(), bytespp(4) {
+    TGAColor(unsigned char R, unsigned char G, unsigned char B, unsigned char A = 255) : bgra(), bytespp(4) {
         bgra[0] = B;
         bgra[1] = G;
         bgra[2] = R;
@@ -36,16 +36,16 @@ struct TGAColor {
     }
 
     TGAColor(unsigned char v) : bgra(), bytespp(1) {
-        for (int i=0; i<4; i++) bgra[i] = 0;
+        for (int i = 0; i < 4; i++) bgra[i] = 0;
         bgra[0] = v;
     }
 
 
-    TGAColor(const unsigned char *p, unsigned char bpp) : bgra(), bytespp(bpp) {
-        for (int i=0; i<(int)bpp; i++) {
+    TGAColor(const unsigned char* p, unsigned char bpp) : bgra(), bytespp(bpp) {
+        for (int i = 0; i < (int)bpp; i++) {
             bgra[i] = p[i];
         }
-        for (int i=bpp; i<4; i++) {
+        for (int i = bpp; i < 4; i++) {
             bgra[i] = 0;
         }
     }
@@ -54,9 +54,26 @@ struct TGAColor {
 
     TGAColor operator *(float intensity) const {
         TGAColor res = *this;
-        intensity = (intensity>1.f?1.f:(intensity<0.f?0.f:intensity));
-        for (int i=0; i<4; i++) res.bgra[i] = bgra[i]*intensity;
+        intensity = (intensity > 1.f ? 1.f : (intensity < 0.f ? 0.f : intensity));
+        for (int i = 0; i < 4; i++) res.bgra[i] = bgra[i] * intensity;
         return res;
+    }
+
+    // НОВЫЙ МЕТОД: смешивание цветов с альфа-каналом
+    static TGAColor blend(const TGAColor& background, const TGAColor& foreground) {
+        float alpha = foreground.bgra[3] / 255.0f;
+        TGAColor result;
+        result.bytespp = 4;
+
+        for (int i = 0; i < 3; i++) {
+            result.bgra[i] = static_cast<unsigned char>(
+                foreground.bgra[i] * alpha +
+                background.bgra[i] * (1.0f - alpha)
+                );
+        }
+        result.bgra[3] = 255; // После смешивания делаем непрозрачным
+
+        return result;
     }
 };
 
@@ -67,32 +84,35 @@ protected:
     int height;
     int bytespp;
 
-    bool   load_rle_data(std::ifstream &in);
-    bool unload_rle_data(std::ofstream &out);
+    bool   load_rle_data(std::ifstream& in);
+    bool unload_rle_data(std::ofstream& out);
 public:
     enum Format {
-        GRAYSCALE=1, RGB=3, RGBA=4
+        GRAYSCALE = 1, RGB = 3, RGBA = 4
     };
 
     TGAImage();
     TGAImage(int w, int h, int bpp);
-    TGAImage(const TGAImage &img);
-    bool read_tga_file(const char *filename);
-    bool write_tga_file(const char *filename, bool rle=true);
+    TGAImage(const TGAImage& img);
+    bool read_tga_file(const char* filename);
+    bool write_tga_file(const char* filename, bool rle = true);
     bool flip_horizontally();
     bool flip_vertically();
     bool scale(int w, int h);
     TGAColor get(int x, int y);
-    bool set(int x, int y, TGAColor &c);
-    bool set(int x, int y, const TGAColor &c);
+    bool set(int x, int y, TGAColor& c);
+    bool set(int x, int y, const TGAColor& c);
+
+    // НОВЫЙ МЕТОД: установка с прозрачностью
+    bool set_with_blend(int x, int y, const TGAColor& c);
+
     ~TGAImage();
-    TGAImage & operator =(const TGAImage &img);
+    TGAImage& operator =(const TGAImage& img);
     int get_width();
     int get_height();
     int get_bytespp();
-    unsigned char *buffer();
+    unsigned char* buffer();
     void clear();
 };
 
 #endif //__IMAGE_H__
-
